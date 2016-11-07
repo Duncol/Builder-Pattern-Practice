@@ -19,8 +19,8 @@ public class Pizza{
         this.ingredientFive = builder.ingredientFive;
         
     private class PizzaBuilder{
-        String cakeType;
-        int diameter;
+        final String cakeType;
+        final int diameter;
         Ingredients ingredientOne;
         Ingredients ingredientTwo;
         Ingredients ingredientThree;
